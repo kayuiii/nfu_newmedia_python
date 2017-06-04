@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import csv
+import csu
 with open('_team_.tsv', encoding='utf8') as f:
     reader = csv.DictReader(f)
     print ('\t'.join(reader.fieldnames))
